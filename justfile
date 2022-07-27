@@ -8,10 +8,10 @@ bench-bun-deno-node:
 
 # benchmark between zig, cpp and rust
 bench-zig-cpp-rust:
-  hyperfine --shell=none --warmup=100 "/Users/linux_china/WebstormProjects/js-engine-benchmark/main" "/Users/linux_china/WebstormProjects/js-engine-benchmark/main-cpp" "/Users/linux_china/WebstormProjects/js-engine-benchmark/main-rs"
+  hyperfine --shell=none --warmup=100 "/Users/linux_china/WebstormProjects/js-engine-benchmark/main-zig" "/Users/linux_china/WebstormProjects/js-engine-benchmark/main-cpp" "/Users/linux_china/WebstormProjects/js-engine-benchmark/main-rs"
 
 # build Zig, Cpp and Rust apps
 build:
-   zig build-exe -O ReleaseFast main.zig
+   zig build-exe -O ReleaseFast --name main-zig main.zig
    clang++ -o main-cpp -O3 main.cpp
    rustc -O -o main-rs main.rs
