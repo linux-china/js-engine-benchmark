@@ -1,6 +1,6 @@
 # bench mark between d8 and jsc
-bench-d8-jsc:
-  hyperfine --shell=none --warmup=100 "/usr/local/Cellar/v8/10.2.154.4/bin/d8 /Users/linux_china/WebstormProjects/js-engine-benchmark/demo.js" "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc /Users/linux_china/WebstormProjects/js-engine-benchmark/demo-jsc.js"
+bench-v8-jsc:
+  hyperfine --shell=none --warmup=100 "/Users/linux_china/.jsvu/v8 /Users/linux_china/WebstormProjects/js-engine-benchmark/demo.js" "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc /Users/linux_china/WebstormProjects/js-engine-benchmark/demo-jsc.js"
 
 # benchmark between bun, deno and node
 bench-bun-deno-node:
