@@ -17,6 +17,8 @@ JavaScript engine benchmark
 * Zig vs Cpp vs Rust: Zig win
   ![Zig vs Cpp vs Rust](images/zig-vs-cpp-vs-rust.png)
 
+Summary: Bun is written by Zig and based on JSC, and it could be fast. 
+
 # References
 
 * Bun: https://bun.sh/
