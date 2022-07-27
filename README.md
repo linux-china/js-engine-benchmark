@@ -7,7 +7,7 @@ JavaScript engine benchmark
 * MacBook Pro(15-inch, 2018)
 * Processor 2.0 GHz 6-Core Intel Core i9
 * Memory 32G 2400 MHz DDR4
-* Versions: D8 - 10.2.154.4, Bun - 0.1.5, Deno - 1.24.0, Node - 16.16.0
+* Versions: V8 - 10.6.43, Bun - 0.1.5, Deno - 1.24.0, Node - 16.16.0
 
 # Test cases
 
