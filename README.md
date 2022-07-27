@@ -28,3 +28,4 @@ Summary: Bun is written by Zig and based on JSC, and it could be fast.
 * v8: https://v8.dev/
 * JSC: https://developer.apple.com/documentation/javascriptcore
 * hyperfine: a command-line benchmarking tool https://github.com/sharkdp/hyperfine
+* jsvu: JavaScript (engine) Version Updater https://github.com/GoogleChromeLabs/jsvu
