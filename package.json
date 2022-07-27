@@ -1,0 +1,11 @@
+{
+  "name": "js-engine-benchmark",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "linux_china <libing.chen@gmail.com>",
+  "license": "ISC"
+}
